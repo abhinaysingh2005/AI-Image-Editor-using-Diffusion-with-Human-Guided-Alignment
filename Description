@@ -1,0 +1,5 @@
+This project builds an AI-based image editing system with human-guided alignment using diffusion models.
+With an input image and a natural language instruction (such as “make the sky sunset” or “place a dog next to the car”), the system produces a natural-looking edited image that aligns with the user’s intention. 
+It employs a pre-trained Stable Diffusion model with LoRA (Low-Rank Adaptation) for efficient fine-tuning and utilizes human preference feedback to enhance image quality and semantic alignment. 
+A small portion of the MS COCO dataset is employed for images and captions, and a small preference dataset is also used. 
+This system facilitates precise, customizable, and high-quality image editing.
